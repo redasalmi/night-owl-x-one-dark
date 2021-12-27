@@ -1,0 +1,21 @@
+{
+  "name": "night-owl-x-one-dark",
+  "displayName": "night-owl-x-one-dark",
+  "description": "A dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Night Owl X One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Night Owl X One Dark-color-theme.json"
+      }
+    ]
+  }
+}
