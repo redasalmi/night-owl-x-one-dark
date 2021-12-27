@@ -1,5 +1,7 @@
 # Night Owl X One Dark
 
+A vscode dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes.
+
 ## What's in the folder
 
 - This folder contains all of the files necessary for your color theme extension.
