@@ -1,30 +1,8 @@
 # Night Owl X One Dark
 
-A vscode dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes.
+A vscode dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes. These theme uses Night Owl colors for backgrounds and menus and One Dark Pro for code colors.
 
-## What's in the folder
+Check out both these two themes because they are awesome:
 
-- This folder contains all of the files necessary for your color theme extension.
-- `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-- `themes/Night Owl X One Dark-color-theme.json` - the color theme definition file.
-
-## Get up and running straight away
-
-- Press `F5` to open a new window with your extension loaded.
-- Open `File > Preferences > Color Themes` and pick your color theme.
-- Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
-
-## Make changes
-
-- Changes to the theme file are automatically applied to the Extension Development Host window.
-
-## Adopt your theme to Visual Studio Code
-
-- The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
-
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
-
-## Install your extension
-
-- To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-- To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
+- [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)

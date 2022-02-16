@@ -1,9 +1,9 @@
 {
   "name": "night-owl-x-one-dark",
   "publisher": "reda-salmi",
-  "displayName": "night-owl-x-one-dark",
+  "displayName": "Night Owl X One Dark",
   "description": "A dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/redasalmi/night-owl-x-one-dark.git"
