@@ -1,40 +1,40 @@
 {
-  "name": "night-owl-x-one-dark",
-  "publisher": "reda-salmi",
-  "displayName": "Night Owl X One Dark",
-  "description": "A dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes",
-  "version": "0.0.2",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/redasalmi/night-owl-x-one-dark.git"
-  },
-  "author": "Reda Salmi <reda.salmi.elt@gmail.com> (https://redasalmi.netlify.app/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/redasalmi/night-owl-x-one-dark/issues"
-  },
-  "homepage": "https://github.com/redasalmi/night-owl-x-one-dark#readme",
-  "engines": {
-    "vscode": "^1.63.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Night Owl X One Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/night-owl-x-one-dark.json"
-      }
-    ]
-  },
-  "scripts": {
-    "prettier": "prettier ./themes/night-owl-x-one-dark.json --write",
-    "build": "node ./src/build.js",
-    "build:theme": "npm run build && npm run prettier"
-  },
-  "devDependencies": {
-    "prettier": "2.8.8"
-  }
+	"name": "night-owl-x-one-dark",
+	"publisher": "reda-salmi",
+	"displayName": "Night Owl X One Dark",
+	"description": "A dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes",
+	"version": "0.0.3",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/redasalmi/night-owl-x-one-dark.git"
+	},
+	"author": "Reda Salmi <reda.salmi.elt@gmail.com> (https://redasalmi.netlify.app/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/redasalmi/night-owl-x-one-dark/issues"
+	},
+	"homepage": "https://github.com/redasalmi/night-owl-x-one-dark#readme",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Night Owl X One Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night-owl-x-one-dark.json"
+			}
+		]
+	},
+	"scripts": {
+		"prettier": "prettier ./themes/night-owl-x-one-dark.json --write",
+		"build": "node ./src/build.js",
+		"build:theme": "npm run build && npm run prettier"
+	},
+	"devDependencies": {
+		"prettier": "2.8.8"
+	}
 }
