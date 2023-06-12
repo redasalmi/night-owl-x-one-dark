@@ -28,5 +28,13 @@
         "path": "./themes/night-owl-x-one-dark.json"
       }
     ]
+  },
+  "scripts": {
+    "prettier": "prettier ./themes/night-owl-x-one-dark.json --write",
+    "build": "node ./src/build.js",
+    "build:theme": "npm run build && npm run prettier"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
   }
 }
