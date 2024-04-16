@@ -3,12 +3,12 @@
 	"publisher": "reda-salmi",
 	"displayName": "Night Owl X One Dark",
 	"description": "A dark theme consisting of a combination of the Night Owl and One Dark Pro Darker themes",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/redasalmi/night-owl-x-one-dark.git"
 	},
-	"author": "Reda Salmi <reda.salmi.elt@gmail.com> (https://redasalmi.netlify.app/)",
+	"author": "Reda Salmi <reda.salmi.elt@gmail.com> (https://redacodes.com/)",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/redasalmi/night-owl-x-one-dark/issues"
@@ -35,6 +35,6 @@
 		"build:theme": "npm run build && npm run prettier"
 	},
 	"devDependencies": {
-		"prettier": "2.8.8"
+		"prettier": "3.2.5"
 	}
 }
