@@ -3,6 +3,14 @@
 All notable changes to the "night-owl-x-one-dark" extension will be documented
 in this file.
 
+## [0.0.4] - 2023-04-16
+
+### Changed
+
+- syncs theme with latest Night Owl & One Dark themes updates
+- switches to use `pnpm` as a package manager
+- updates `prettier` to latest available version
+
 ## [0.0.3] - 2023-06-12
 
 ### Added
