@@ -3,6 +3,12 @@
 All notable changes to the "night-owl-x-one-dark" extension will be documented
 in this file.
 
+## [1.0.1] - 2024-05-18
+
+### Changed
+
+- fixes preview image link in readme
+
 ## [1.0.0] - 2024-05-17
 
 ### Added
