@@ -11,4 +11,4 @@ code colors, the custom theme overrides colors are used to override some menus
 background colors. All credit goes to those themes contributors, make sure to
 check their awesome work.
 
-![Night Owl X One Dark theme preview](https://raw.githubusercontent.com/redasalmi/night-owl-x-one-dark/screenshot.png)
+![Night Owl X One Dark theme preview](https://raw.githubusercontent.com/redasalmi/night-owl-x-one-dark/main/screenshot.png)
