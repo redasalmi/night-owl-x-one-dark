@@ -3,6 +3,16 @@
 All notable changes to the "night-owl-x-one-dark" extension will be documented
 in this file.
 
+## [1.0.0] - 2024-05-17
+
+### Added
+
+- adds an icon to the extension  
+
+### Changed
+
+- adds a theme preview image to the readme
+
 ## [0.0.4] - 2023-04-16
 
 ### Changed
