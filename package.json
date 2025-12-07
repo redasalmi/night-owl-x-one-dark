@@ -33,9 +33,12 @@
 	"scripts": {
 		"prettier": "prettier ./themes/night-owl-x-one-dark.json --write",
 		"build": "node ./src/build.js",
-		"build:theme": "npm run build && npm run prettier"
+		"build:theme": "npm run build && npm run prettier",
+		"package": "vsce package",
+		"publish": "vsce publish"
 	},
 	"devDependencies": {
+		"@vscode/vsce": "^3.7.1",
 		"prettier": "3.2.5"
 	}
 }
