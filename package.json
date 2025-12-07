@@ -30,15 +30,20 @@
 		]
 	},
 	"icon": "icon.png",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
 	"scripts": {
-		"prettier": "prettier ./themes/night-owl-x-one-dark.json --write",
-		"build": "node ./src/build.js",
-		"build:theme": "npm run build && npm run prettier",
-		"package": "vsce package",
-		"publish": "vsce publish"
+		"build": "bun run index.ts",
+		"package": "bun x rimraf ./vsix && bun x mkdirp ./vsix && bun run vsce package --out ./vsix/night-owl-x-one-dark.vsix",
+		"publish": "bun run vsce publish"
 	},
 	"devDependencies": {
+		"@types/bun": "latest",
 		"@vscode/vsce": "^3.7.1",
-		"prettier": "3.2.5"
+		"prettier": "^3.7.4"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
 	}
 }
